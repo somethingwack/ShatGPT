@@ -1,7 +1,7 @@
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.*;
 
 public class ShatGPTFace extends JFrame implements ActionListener {
 
@@ -43,13 +43,13 @@ public class ShatGPTFace extends JFrame implements ActionListener {
 
         frame.setSize(500, 500);
 
-        faceOpen = new ImageIcon("open.png");
-        faceClosed = new ImageIcon("closed.png");
-        faceAngryClosed = new ImageIcon("angryclosed.png");
-        faceAngryOpen = new ImageIcon("angryopen.png");
-        faceLoading = new ImageIcon("loading.png");
-        faceThinkingClosed = new ImageIcon("thinkingclosed.png");
-        faceThinkingOpen = new ImageIcon("thinkingopen.png");
+        faceOpen = new ImageIcon("faces/open.png");
+        faceClosed = new ImageIcon("faces/closed.png");
+        faceAngryClosed = new ImageIcon("faces/angryclosed.png");
+        faceAngryOpen = new ImageIcon("faces/angryopen.png");
+        faceLoading = new ImageIcon("faces/loading.png");
+        faceThinkingClosed = new ImageIcon("faces/thinkingclosed.png");
+        faceThinkingOpen = new ImageIcon("faces/thinkingopen.png");
 
         frame.setLocation(700,0);
         frame.setAlwaysOnTop(true);
