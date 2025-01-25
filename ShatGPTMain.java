@@ -7,7 +7,7 @@ public class ShatGPTMain {
 
         // ShatGPT title screen
         face.loadingFace();
-        System.out.println("Miter Gig : 2025 : AP CS : Java 21 \n ShatGPT (Version 3) is a '''chatbot''' parody of ChatGPT\n\n");
+        System.out.println("somethingwack : 2025 : Java 21 \n ShatGPT (Version 3) is a '''chatbot''' parody of ChatGPT\n\n");
         System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
         System.out.println("""
                  _____ _           _   _____ ______ _____     _____\s
