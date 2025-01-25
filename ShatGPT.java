@@ -14,7 +14,7 @@ public class ShatGPT {
     private final static String[] CLOSERS_ARRAY = {" yup.", " yeah."," pretty much."," thats about it."," like that yeah.", " (:", " uh huh.", " like yeah."," you understand yeah."};
     private final static String[] ANSWERS_ARRAY = {" yeah"," so"," basically uh,"," like"," uhm"," so what ur gonna need to do:"," is uh,"," well..."," its kinda hard to explain but,"," or something"," i mean its complicated but", " its kinda like..", " uh lemme think... ", " ur gonna want to,", " think about how,", " alright so", " you know?", " hmm,", " ummm,", " ermmmmmmm...", " right??", " oh wait yeah i remember,", " really", " to be honest,", " you see...", " image you had three apples..", " imagine you had one apple..", " imagine you had a goat.. actually nvm.", " think of it like on a scale from 1 to 10.."};
     private final static String[] OPENERS_ARRAY = {"its pretty straight forward,","pretty much like", "you gotta kinda","alright so,","what you gotta do","so its like","its simple"};
-    private final static String[] LOADING_ARRAY = {"tinking","calcoolating", "accesing intornmet", "stealoing governmt docoments", "emailinmg the preseindt", "downloading malware", "asking ChatGPT", "drinking root beer", "analysing ur search history", "deleting system32", "downloadig steam and instalng bat rats", "hackng NSA", "consultng libary of babel", "rebooting", "starting over", "oops misclick, restartign", "clearing tabs", "reflecting internally", "simulating a goat", "DDOSing trip wtih ShartNET", "refueling engine", "replacing wiper fluid", "pondering my orb", "aligning chakras", "looking at YOUR FACEEEE!!!!!", "posting on r/askreddit"};
+    private final static String[] LOADING_ARRAY = {"tinking","calcoolating", "accesing intornmet", "stealoing governmt docoments", "emailinmg the preseindt", "downloading malware", "asking ChatGPT", "drinking root beer", "analysing ur search history", "deleting system32", "downloadig steam and instalng bat rats", "hackng NSA", "consultng libary of babel", "rebooting", "starting over", "oops misclick, restartign", "clearing tabs", "reflecting internally", "simulating a goat", "DDOSing you wtih ShartNET", "refueling engine", "replacing wiper fluid", "pondering my orb", "aligning chakras", "looking at YOUR FACEEEE!!!!!", "posting on r/askreddit"};
 
     private final static String[][] VARIETY_ARRAY = {{"yeah", "yup", "yea he is", "i thought it was obvious"},  // row 0, length 4 - yes
             {"42", "42 obvs", "fourty-two"},                           // row 1, length 3 - 42
@@ -74,7 +74,7 @@ public class ShatGPT {
                     face.angryFace();
                     break question;
                 }
-                if (question.toLowerCase().contains("is") && question.toLowerCase().contains(new String(Base64.getDecoder().decode("Z2F5")))) {
+                if (question.toLowerCase().contains("is") && question.toLowerCase().contains("gay")) {
                     slowPrint("ShatGPT:\n  " + VARIETY_ARRAY[0][(int) (Math.random() * 4)] + "\n\n", 40);
                     break question;
                 }
